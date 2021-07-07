@@ -1,0 +1,53 @@
+npm craete-react-app nombreApp
+^C   -> Parar aplicacion
+npm start
+cat ./package.json Mirar las dependensias desde powershell
+CODE . paRA ABRIR LA CARPETA DEL PROYECTO EN visual studio code
+
+export default function () {
+ 
+    return (
+        <div>
+            <h1>Navbar</h1>
+        </div>
+    );
+}
+reducers carpeta vamos a guardar el estado de la aplicacion state
+actions carpeta tipos de acciones que podemos lanzar acciones como ir a la base de datos y despues con dispatch guardarlas en state
+
+npm install redux-devtools-extension --save-dep
+Para guardar dependencias solo en fase de desarrollo
+
+useSelector nos sirve para selecionar datos que estan en estate
+
+Ctrl k + u descomentar varias lineas de codigo
+Ctrl k + c comentar varias lineas de codigo
+
+
+fako@hotmail.com
+1234
+fredder08@hotmail.com
+5678
+alexorte@gmail.com
+12345678
+
+npm install moment --save libreria para fechas y horas 
+npm install placeholder-loading --save
+npm install react-confirm-alert
+
+Si sale este error "Type Error: Cannot read property 'title' of null" se debe a que la consulta que se le hace por parte del useEffect al backend tarda un tiempo, entonces el programa no detecta el valor de la variable en este caso title y piensa que esta nulo el valor aya que el componente se renderiza inmediatamente pos tal razon debemos preguntarle si el post o el objeto existe renderice el componente ejemplo:
+
+{post && <NewPostForm //Si el post existe vamos a renderizar el componente
+     errors={errors} 
+     onSubmitCallback={createPost}
+     pTitle={post.title}
+     pContent={post.content} 
+     pExposureId={post.exposureId}
+    >}
+
+https://undraw.co/search imagenes gratis
+
+
+
+
+
